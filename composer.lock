@@ -2157,12 +2157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Qeti/Karika.git",
-                "reference": "714cd8b8c3c65c105988cb4c56fa2709fab6ffcd"
+                "reference": "04fc1f4d2519a0a4dc1c6afe4ab3be9eddc45a02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Qeti/Karika/zipball/714cd8b8c3c65c105988cb4c56fa2709fab6ffcd",
-                "reference": "714cd8b8c3c65c105988cb4c56fa2709fab6ffcd",
+                "url": "https://api.github.com/repos/Qeti/Karika/zipball/04fc1f4d2519a0a4dc1c6afe4ab3be9eddc45a02",
+                "reference": "04fc1f4d2519a0a4dc1c6afe4ab3be9eddc45a02",
                 "shasum": ""
             },
             "require": {
@@ -2214,7 +2214,7 @@
                 "MIT"
             ],
             "description": "YA business automatisation system",
-            "time": "2016-10-25 20:32:03"
+            "time": "2016-10-29 20:46:40"
         },
         {
             "name": "sensio/distribution-bundle",

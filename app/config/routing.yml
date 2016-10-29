@@ -1,3 +1,2 @@
-app:
-    resource: "@AppBundle/Controller/"
-    type:     annotation
+imports:
+    resource: "@KarikaCoreBundle/Resources/config/routing.yml"
