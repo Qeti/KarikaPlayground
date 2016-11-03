@@ -1,0 +1,36 @@
+{
+  "name": "karika-playground",
+  "version": "1.0.0",
+  "description": "YA business automatisation system",
+  "author": "Matiushenkov Nikolay, Matiushenkov Igor",
+  "license": "MIT",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --watch",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack -p --config ./webpack-production.config.js",
+    "prebuild": "./node_modules/.bin/rimraf public/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qeti/KarikaPlayground.git"
+  },
+  "keywords": [
+    "karika",
+    "crm",
+    "business",
+    "bpm"
+  ],
+  "bugs": {
+    "url": "https://github.com/Qeti/KarikaPlayground/issues"
+  },
+  "homepage": "https://github.com/Qeti/KarikaPlayground",
+  "dependencies": {
+    "karika": "^1.0.0"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ]
+  }
+}
