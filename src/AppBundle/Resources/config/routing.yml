@@ -1,0 +1,4 @@
+app_account_api:
+    resource: "@AppBundle/Controller/AccountRESTController.php"
+    type:   rest
+    prefix:   /api
