@@ -1131,7 +1131,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/f3002436abeac555104069f4562d284d23d06dab",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/3015f0965b74704362f9b2006646781d4613bcdd",
                 "reference": "f3002436abeac555104069f4562d284d23d06dab",
                 "shasum": ""
             },
@@ -2158,12 +2158,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Qeti/Karika.git",
-                "reference": "6cd45b52a8191d2a496e196a3ba5a6656f10211e"
+                "reference": "622ce5be2c0851d130caf229ec0dbe741a2ad88e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Qeti/Karika/zipball/6cd45b52a8191d2a496e196a3ba5a6656f10211e",
-                "reference": "6cd45b52a8191d2a496e196a3ba5a6656f10211e",
+                "url": "https://api.github.com/repos/Qeti/Karika/zipball/622ce5be2c0851d130caf229ec0dbe741a2ad88e",
+                "reference": "622ce5be2c0851d130caf229ec0dbe741a2ad88e",
                 "shasum": ""
             },
             "require": {
@@ -2215,7 +2215,7 @@
                 "MIT"
             ],
             "description": "YA business automatisation system",
-            "time": "2016-11-03 21:27:56"
+            "time": "2016-11-07 06:30:33"
         },
         {
             "name": "sensio/distribution-bundle",
