@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace Karika\PlaygroundBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -9,7 +9,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  * Account
  *
  * @ORM\Table(name="account")
- * @ORM\Entity(repositoryClass="AppBundle\Repository\AccountRepository")
+ * @ORM\Entity(repositoryClass="Karika\PlaygroundBundle\Repository\AccountRepository")
  */
 class Account
 {

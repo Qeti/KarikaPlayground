@@ -16,7 +16,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Karika\CoreBundle\KarikaCoreBundle(),
-            new AppBundle\AppBundle(),
+            new Karika\PlaygroundBundle\KarikaPlaygroundBundle(),
 
             new Voryx\RESTGeneratorBundle\VoryxRESTGeneratorBundle(),
             new FOS\RestBundle\FOSRestBundle(),

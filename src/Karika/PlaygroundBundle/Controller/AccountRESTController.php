@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle\Controller;
+namespace Karika\PlaygroundBundle\Controller;
 
-use AppBundle\Entity\Account;
-use AppBundle\Form\AccountType;
+use Karika\PlaygroundBundle\Entity\Account;
+use Karika\PlaygroundBundle\Form\AccountType;
 
 use FOS\RestBundle\Controller\Annotations\QueryParam;
 use FOS\RestBundle\Controller\Annotations\RouteResource;
@@ -67,7 +67,7 @@ class AccountRESTController extends VoryxController
             $filters = !is_null($paramFetcher->get('filters')) ? $paramFetcher->get('filters') : array();
 
             $em = $this->getDoctrine()->getManager();
-            $entities = $em->getRepository('AppBundle:Account')->findBy($filters, $order_by, $limit, $offset);
+            $entities = $em->getRepository('KarikaPlaygroundBundle:Account')->findBy($filters, $order_by, $limit, $offset);
             if ($entities) {
                 return $entities;
             }

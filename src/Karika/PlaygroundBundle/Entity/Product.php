@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace Karika\PlaygroundBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Karika\CoreBundle\Entity\ProductSuperclass as BaseProduct;

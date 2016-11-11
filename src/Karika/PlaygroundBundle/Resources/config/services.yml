@@ -9,7 +9,7 @@ services:
         class: Doctrine\ORM\EntityRepository
         factory: ["@doctrine.orm.entity_manager", getRepository]
         arguments:
-            - AppBundle\Entity\Product
+            - Karika\PlaygroundBundle\Entity\Product
 
 #    service_name:
 #        class: Karika\CoreBundle\Directory\ClassName

@@ -1,6 +1,6 @@
 <?php
 
-namespace Karika\CoreBundle\Form;
+namespace Karika\PlaygroundBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -19,7 +19,7 @@ class ProductType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'PlaygroundCoreBundle\Entity\Product'
+            'data_class' => 'Karika\PlaygroundBundle\Entity\Product'
         ));
     }
 }
