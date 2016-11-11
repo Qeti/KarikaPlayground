@@ -1,0 +1,16 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/book/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+    # Repositories
+    karika.repository.product:
+        class: Doctrine\ORM\EntityRepository
+        factory: ["@doctrine.orm.entity_manager", getRepository]
+        arguments:
+            - AppBundle\Entity\Product
+
+#    service_name:
+#        class: Karika\CoreBundle\Directory\ClassName
+#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
