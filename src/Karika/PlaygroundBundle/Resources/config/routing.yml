@@ -1,4 +1,0 @@
-app_account_api:
-    resource: "@KarikaPlaygroundBundle/Controller/AccountRESTController.php"
-    type:   rest
-    prefix:   /api

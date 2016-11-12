@@ -1,0 +1,9 @@
+app_account_api:
+    resource: "@KarikaPlaygroundBundle/Controller/AccountRESTController.php"
+    type:   rest
+    prefix:   /api
+
+app_product_api:
+    resource: "@KarikaPlaygroundBundle/Controller/ProductRESTController.php"
+    type:   rest
+    prefix:   /api

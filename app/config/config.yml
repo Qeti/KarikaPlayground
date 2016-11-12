@@ -1,6 +1,6 @@
 imports:
     - { resource: parameters.yml }
     - { resource: '@KarikaCoreBundle/Resources/config/config.yml' }
-    - { resource: '@KarikaPlaygroundBundle/Resources/config/config_dev.yml' }
+    - { resource: '@KarikaPlaygroundBundle/Resources/config/config.yml' }
     - { resource: security.yml }
     - { resource: services.yml }

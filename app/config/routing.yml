@@ -1,5 +1,8 @@
-imports:
-    resource: "@KarikaCoreBundle/Resources/config/routing.yml"
+karika_core:
+    resource: "@KarikaCoreBundle/Resources/config/routing/routing.yml"
 
 karika_playground_bundle:
     resource: "@KarikaPlaygroundBundle/Resources/config/routing.yml"
+
+spa:
+    resource: "@KarikaCoreBundle/Resources/config/routing/spa.yml"
