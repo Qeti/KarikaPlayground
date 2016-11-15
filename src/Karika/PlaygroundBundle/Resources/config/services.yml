@@ -4,12 +4,6 @@ parameters:
 #    parameter_name: value
 
 services:
-    # Repositories
-    karika.repository.product:
-        class: Doctrine\ORM\EntityRepository
-        factory: ["@doctrine.orm.entity_manager", getRepository]
-        arguments:
-            - Karika\PlaygroundBundle\Entity\Product
 
 #    service_name:
 #        class: Karika\CoreBundle\Directory\ClassName

@@ -15,7 +15,7 @@ class ProductRESTController extends BaseProductRESTController
     /**
      * @inheritdoc
      */
-    public function cgetAction(ParamFetcherInterface $paramFetcher)
+    public function getAction(int $id)
     {
         exit('Overriden');
     }

@@ -1,2 +1,6 @@
 imports:
     - { resource: services.yml }
+
+karika:
+    entity:
+        product_class: Karika\PlaygroundBundle\Entity\Product
