@@ -57,7 +57,7 @@ module.exports = function (options) {
 
       'polyfills': './vendor/qeti/karika/front/src/polyfills.browser.ts',
       'vendor': './vendor/qeti/karika/front/src/vendor.browser.ts',
-      'main': './vendor/qeti/karika/front/src/main.browser.ts'
+      'main': './front/src/main.browser.ts'
 
     },
 
