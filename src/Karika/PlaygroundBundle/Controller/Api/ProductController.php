@@ -1,16 +1,15 @@
 <?php
 
-namespace Karika\PlaygroundBundle\Controller;
+namespace Karika\PlaygroundBundle\Controller\Api;
 
 use FOS\RestBundle\Controller\Annotations\RouteResource;
-use FOS\RestBundle\Request\ParamFetcherInterface;
-use Karika\CoreBundle\Controller\ProductRESTController as BaseProductRESTController;
+use Karika\CoreBundle\Controller\Api\ProductController as BaseProductController;
 
 /**
  * Product controller.
  * @RouteResource("Product")
  */
-class ProductRESTController extends BaseProductRESTController
+class ProductController extends BaseProductController
 {
     /**
      * @inheritdoc

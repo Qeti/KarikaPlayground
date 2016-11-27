@@ -19,7 +19,6 @@ class AppKernel extends Kernel
             new Karika\PlaygroundBundle\KarikaPlaygroundBundle(),
             new Karika\ExtraPlaygroundBundle\KarikaExtraPlaygroundBundle(),
 
-            new Voryx\RESTGeneratorBundle\VoryxRESTGeneratorBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle($this),
             new Nelmio\CorsBundle\NelmioCorsBundle(),
